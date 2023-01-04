@@ -12,20 +12,21 @@ header{
 }
 
 h1{
-    padding: 14px 0 14px 10px;
+    padding: 14px 0 14px 14%;
 }
 
 main{
-    width: auto;
+    width: 54%;
     position: relative;
-    margin: 0 auto;
-    padding: 0 10px;
+    margin: 0 0;
+    padding: 0 0 0 14%;
+    float: left;
 }
 
 .encabezado h2{
-    font-size: 24px;
+    font-size: 32px;
     font-weight: 700;
-    padding: 40px 0 10px 0;
+    padding: 60px 0 10px 0;
     line-height: 1.4;
 }
 
@@ -45,7 +46,7 @@ main{
 }
 
 .parrafo-cero p{
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.6;
     margin: 22px 0 0px;
 }
@@ -56,13 +57,13 @@ main{
 }
 
 .parrafos-listas h3{
-    font-size: 18px;
+    font-size: 24px;
     font-weight: 700;
     line-height: 1.4;
 }
 
 .parrafos-listas p{
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.6;
     margin: 18px 0;
 }
@@ -148,6 +149,10 @@ form textarea{
     margin-bottom: 15px;
 }
 
+form .asterisco-rojo{
+    color: red;
+}
+
 form .checkbox{
     width: 14px;
     height: 14px;
@@ -170,8 +175,32 @@ form .enviar:hover{
     background-color: #42424248;
 }
 
+aside{
+    width: 15%;
+    padding: 40px 14% 0 0;
+    float: right;
+}
+
+aside p{
+    font-size: 28px;
+    font-weight: 700;
+    padding: 40px 0 10px 0;
+    line-height: 1.4;
+}
+
+aside li{
+    padding: 10px 0;
+}
+
+aside a{
+    text-decoration: none;
+    color: #424242;
+    line-height: 1.4;
+}
+
 footer{
     background-color: rgba(169, 169, 169, 0.464);
     font-size: 14px;
-    padding: 15px 10px;
+    padding: 15px 0 15px 14%;
+    clear: both;
 }
