@@ -1,0 +1,177 @@
+body{
+    font-family: sans-serif;
+    color: #424242;
+    background-color: #fafafa;
+}
+
+header{
+    background: #424242;
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+}
+
+h1{
+    padding: 14px 0 14px 10px;
+}
+
+main{
+    width: auto;
+    position: relative;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.encabezado h2{
+    font-size: 24px;
+    font-weight: 700;
+    padding: 40px 0 10px 0;
+    line-height: 1.4;
+}
+
+.encabezado p{
+    display: inline;
+    font-size: 13px;
+}
+
+.encabezado a{
+    text-decoration: none;
+    color: #424242;
+    font-size: 13px;
+}
+
+.parrafo-cero{
+    margin: 0 0 18px;
+}
+
+.parrafo-cero p{
+    font-size: 14px;
+    line-height: 1.6;
+    margin: 22px 0 0px;
+}
+
+.parrafo-cero img{
+    width: 100%;
+    padding: 22px 0 0;
+}
+
+.parrafos-listas h3{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.4;
+}
+
+.parrafos-listas p{
+    font-size: 14px;
+    line-height: 1.6;
+    margin: 18px 0;
+}
+
+.parrafos-listas strong{
+    font-weight: 600;
+}
+
+.publicacion-original{
+    box-shadow: 5px 5px 10px whitesmoke, -4px 0 rgb(23, 162, 184);
+    margin: 0 4px 24px;
+}
+
+.publicacion-original p{
+    font-size: 14px;
+    line-height: 1.6;
+    padding: 6px 20px;
+}
+
+.publicacion-original p:first-child{
+    background-color: rgba(23, 162, 184, .1);
+    font-weight: 600;
+}
+
+.publicacion-original p:last-child{
+    padding: 25px;
+}
+
+.publicacion-original a{
+    color:  rgb(23, 79, 200);
+}
+
+.end-links{
+    padding-bottom: 40px;
+    border-bottom: solid rgba(23, 162, 184, .1) 1px;
+    margin-bottom: 40px;
+}
+
+.end-links a{
+    text-decoration: none;
+    color: #424242;
+    font-size: 13px;
+}
+
+.end-links li{
+    display: inline;
+}
+
+form{
+    padding: 20px 0 80px;
+    color: #424242c8;
+    font-size: 13px;
+}
+
+form p:first-child{
+    color: #424242;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.4;
+}
+
+form p{
+    padding: 20px 0;
+}
+
+form label{
+    display: block;
+    margin: 10px 0;
+}
+
+form input{
+    padding: 0 10px;
+    width: 95%;
+    height: 35px;
+    border: solid rgba(125, 125, 125, 0.243) 1px;
+    border-radius: 3px;
+    margin-bottom: 15px;
+}
+
+form textarea{
+    width: 95%;
+    padding: 10px 10px;
+    margin-bottom: 15px;
+}
+
+form .checkbox{
+    width: 14px;
+    height: 14px;
+    margin: 0 12px 0 0;
+}
+
+form .enviar{
+    background-color: #42424221;
+    color:#424242;
+    font-size: 14px;
+    font-weight: bold;
+    width: 30%;
+    height: 45px;
+    margin-top: 20px;
+    margin-left: 70%;
+}
+
+form .enviar:hover{
+    cursor: pointer;
+    background-color: #42424248;
+}
+
+footer{
+    background-color: rgba(169, 169, 169, 0.464);
+    font-size: 14px;
+    padding: 15px 10px;
+}
